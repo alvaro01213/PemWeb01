@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Pemrograman Web: Chart</title>
+
+    <style>
+        body, h1, a, td, span p{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .bungkus{
+            background-color: #333;
+            overflow: hidden;
+        }
+        .bungkus a{
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 16px 18px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        .bungkus a:hover{
+            background-color: #ddd;
+            color: black;
+        }
+        .bungkus a.active{
+            background-color: #04aa6d;
+            color: white;
+        }
+        .icon a{
+            float: right;
+        }
+        .poto{
+            float:right;
+           
+        }
+        .search{
+            float: right;
+        }
+        .cekout{
+            list-style: square;
+            background-color: grey;
+            display: grid;
+        }
+        .bawah:after{
+            display: table;
+            clear: both;
+        }
+        .button{
+            border: none;
+            color: blue;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            margin-right: 50%;
+        } 
+    </style>
+</head>
+<body>
+   <div class="bungkus">
+       <a class="Actve" href="#home">TB</a>
+       <a href="#category_1">Category 1</a>
+       <a href="#category_2">Category 2</a>
+       <a href="#category_3">Category 3</a>
+       <figure class="poto" style="color: rgb(255, 255, 255);">
+         <img src="pngtree-cart-shopping-cart-icon-png-free-illustration-image_2284387.jpg" alt="ini gambar search" width="18">
+         Cart (1)
+       </figure>
+       <figure class="search">
+           <img src="images.png" alt="ini gambar kaca pembesar" width="15">
+       </figure>
+   </div>
+
+    <br>
+  
+   <div class="bawah">
+       <div style="float: left; width: 70%;">
+       <h1>Your Cart</h1>
+       <table rules = rows style="width: 600px;">
+            <tr>
+                <td>Item</td>
+                <td></td>
+                <td></td>
+                <td>Price</td>
+                <td></td>
+                <td>Quanntity</td>
+            </tr>
+            <tr>
+                <td><img src="KAOS_HITAM_POLOS_COMBED_30S.jpg" alt="Gambar Baju" width="200" style="display: block; border-radius: 5%; "></td>
+                <td>T-Shirt (Black) Size: S </td>
+                <td></td>
+                <td><b>$10.00</b></td>
+                <td></td>
+                <td style="width: 100px;"><input type="number" min="1" max="1000"></td>
+            </tr>
+            <tr>
+                <td colspan="6" style="text-align: right; width: 150px;"><b>Subtotal: $20.00</b></td>
+            </tr>
+       </table>
+    </div>
+       <div class="cekout" style="float: left; width: 30%; margin-top: 10%;" >
+            <aside style="border-style: inset; width: auto;">
+               <h2><b>CEK OUT SUMMARY</b></h2>
+               <table style="width: 140%;" >
+                <tr >
+                    <td>Subtotal</td>
+                    <td>$20.00</td>
+                </tr>
+                <tr>
+                     <td>Shipping</td>
+                     <td>$1.00</td>
+                </tr>
+                <tr>
+                 <td>Est. Taxes</td>
+                 <td>$1.50</td>
+                </tr>
+            </table>
+            <hr>
+            <table style="width: 192%;">
+                <tr>
+                    <td><b>Total</b></td>
+                    <td><b>$22.50</b></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;"><button class="button" type="button" style="color: blue;"><a href="cekout.html">Cekout</a></button></td>
+                </tr>
+            </table>
+        </aside>
+               </div>
+       </div>
+  
+   <div class="footer">
+    <footer style="margin-top: 50%;">
+        <hr>
+        <a class="Actve" href="Chart.html">TB</a>|
+        <a href="#category_1">Category 1</a>|
+        <a href="#category_2">Category 2</a>|
+        <a href="#category_3">Category 3</a>|
+   </footer>
+</div>
+</body>
+</html>
