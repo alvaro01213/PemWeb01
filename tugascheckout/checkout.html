@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check OUT</title>
+    <style>
+        body, h1, a, td, span p{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .flex{
+            display: flex;
+        }
+        .bungkus{
+            background-color: #333;
+            overflow: hidden;
+        }
+        .bungkus a{
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 16px 18px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        .bungkus a:hover{
+            background-color: #ddd;
+            color: black;
+        }
+        .bungkus a.active{
+            background-color: #04aa6d;
+            color: white;
+        }
+        .icon a{
+            float: right;
+        }
+        .poto{
+            float:right;
+           
+        }
+        .search{
+            float: right;
+        }
+        .cekout{
+            list-style: square;
+            background-color: grey;
+            display: grid;
+        }
+        .bawah:after{
+            display: table;
+            clear: both;
+        }
+        .button{
+            border: none;
+            color: blue;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            margin-left: 50px;
+        }
+        .thanks{
+            line-height: 1px;
+        }
+        .aside{
+            margin-left: 500px;
+        }
+        .sumary{
+            margin-top: 35px;
+        }
+    
+        </style> 
+</head>
+<body>
+    <div class="bungkus">
+        <a class="Actve" href="Chart.html">TB</a>
+        <a href="#category_1">Category 1 </a>
+        <a href="#category_2">Category 2 </a>
+        <a href="#category_3">Category 3 </a>
+        <figure class="poto" style="color: rgb(255, 255, 255);">
+          <img src="Praktikum 2/file/kisspng-shopping-cart-logo-shopping-bags-trolleys-5afb65b09c72d4.3564791415264250086408.jpg" alt="ini gambar search" width="18">
+          Cart (1)
+        </figure>
+        <figure class="search">
+            <img src="Praktikum 2/file/png-transparent-magnifying-glass-microsoft-powerpoint-magnifying-glass-template-glass-business.png" alt="ini gamnar kaca pembesar" width="15">
+        </figure>
+    </div>
+    <div class="flex">
+    <main>
+    <table class="thanks" style="margin-top: 5%;">
+        <tr>
+            <td rowspan="2"><img src="Praktikum 2/file/images.jpg" alt="checklist" width="100" style="display: block; margin-right: 30px"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><h5>Order 21 October 2021</h5> <br>
+                <hr style="width: 7.5cm;"><br>
+                <h3><b>Thank You MIRAVAL!</b></h3>
+            </td>
+            </tr>
+    </table>
+    <br>
+    <hr style="width: 11cm; margin-left: 1%;">
+    <h5 style="margin-left: 15px;">Your order is confirmed. <br>
+        <br>
+    We've accepted your order and we're getting it ready</h5>
+    <hr style="width: 11cm; margin-left: 1%;">
+    <div class="cust">
+        <h2 style="margin-left: 15px;">Customer Information</h2>
+        <table style="width: 450px; margin-left: 13px;">
+            <tr>
+                <td><b>Shipping Address</b><br>
+                Miraval Barents <br> <br>
+                Jl.Mampang no.88 kab. Antabrantah kota. Ternate
+                Indonesia</td>
+                <td><b>Billing Address</b><br>
+                Miraval Barents <br><br>
+                Jl.Mampang no.88 kab. Antabrantah kota. Ternate
+                Indonesia</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <hr style="width: 11cm; margin-left: 1%;">
+    <br>
+    <table style="width: 450px; margin-left: 13px;">
+        <tr>
+            <td><b>Shipping Method</b></td>
+            <td><b>Payment Method</b></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>SICEPAT 
+                <br>(Estimated ship time 3-5 days)</td>
+            <td>BCA (Virtual Account)
+                <br>01129321487
+            </td>
+        </tr>
+    </table>
+</main>
+
+<aside class="aside">
+    <table class="sumary" style="width: 150%; background-color: rgb(196, 192, 192);border-radius: 5%;">
+        <tr>
+            <td><h3> Summary (1 item)</h3></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Subtotal</td>
+            <td>$20.00</td>
+        </tr>
+        <tr>
+            <td>Shipping</td>
+            <td>$2.20</td>
+        </tr>
+        <tr>
+            <td>Est. Taxes</td>
+            <td>$1.40</td>
+        </tr>
+        <tr>
+            <td colspan="2"><hr></td>
+        </tr>
+        <tr>
+            <td>Gift card or discount code
+                <br><input type="text"></td>
+            <td> <br>
+                <input type="button" value="Apply"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><hr></td>
+        </tr>
+        <tr>
+            <td><b>Total </b></td>
+            <td><b>$23.60 </b></td>
+        </tr>
+    </table>
+</aside>
+</div>
+
+    <div class="footer">
+        <footer style="margin-top: 30%; ">
+            <hr>
+            <a class="Actve" href="Chart.html">TB</a>| 
+            <a href="#category_1">Category 1</a>|
+            <a href="#category_2">Category 2</a>|
+            <a href="#category_3">Category 3</a>
+       </footer>
+       </div>
+</body>
+</html>
