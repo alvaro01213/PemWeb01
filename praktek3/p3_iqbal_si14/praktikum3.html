@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesanan Barang</title>
+    <style>
+        a{
+            padding: 16px 80px;
+        }
+    </style>
+</head>
+<body>
+  <form action="purchase.html">
+    
+    <nav>
+        <ul style="display: flex; background-color: aqua;" >
+            <li style="color: aqua;"><a href="#home">Home</a></li>
+            <li style="color: aqua;"><a href="#generate-link"> Generate Link</a></li>
+            <li style="color: aqua;"><a href="#transaction-history">Transaction History</a></li>
+            <li style="color: aqua;"><a href="#Policy">Policy</a></li>
+            <li style="color: aqua;"><a href="#logut">Log Out</a></li>
+        </ul>
+    </nav>
+</div>
+<div>
+    <table>
+        <tbody>
+            <tr>
+            <td class="kiri" style="width: 30%;">
+                <table>
+                    <tr>
+                        <td><img src="Legion-5-Pro-1-_copy_1179x1179-01.jpeg" width="300"><br>
+                        <input type="submit" value="Upload Foto"></td>
+                    </tr>
+                </table>
+        
+            <td class="kanan" style="width: 70%;">
+                <table>
+                    <tr>
+                        <td>Title Here</td>
+                        <td>:</td>
+                        <td><div>
+                            <input type="text" name="tittle-here">
+                          </div></td>
+                    </tr>
+                    <tr>
+                        <td>Desciption</td>
+                        <td>:</td>
+                        <td> <textarea maxlength="400" placeholder="No more than 400 characters long" id="input-delivery-instruction" name="instructions" cols="30" rows="10" ></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Account Number</td>
+                        <td>:</td>
+                        <td> <input type="text" name="tittle-here"></td>
+                    </tr>
+                    <tr>
+                        <td>Bank</td>
+                        <td>:</td>
+                        <td>
+                            <select id="how-transaction" name="bank">
+                              <option value="BRI">BRI</option>
+                              <option value="BNI">BNI</option>
+                              <option value="BCA">BCA</option>
+                              <option value="Mandiri">Mandiri</option>
+                              <option value="BSI">BSI</option>
+                              <option value="Mega">Mega</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td>Account Holder</td>
+                        <td>:</td>
+                        <td> <input type="text" name="tittle-here"></td>
+                    </tr>
+                    <tr>
+                        <td>Transaction</td>
+                        <td>:</td>
+                        <td><br>
+                            <select id="how-many-order" name="order">
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                              <option value="5">5</option>
+                              <option value="6">6</option>
+                            </select>
+                            <br>*if the transaction is for 3 person, choose 3 for drop down list
+                        </td>
+                    </tr>
+                    <tr>
+                    <td></td>
+                    <td> </td>
+                      <td><div>
+                        <input id="phone" type="checkbox" >
+                        <label for="phone">send to mobile phone</label>
+                      </div>
+                      <div>
+                        <input id="email" type="checkbox" >
+                        <label for="email">send to email</label>
+                      </div></td>
+                    </tr>
+                      <tr>
+                          <td>Sent to mobile phone</td>
+                          <td>:</td>
+                          <td><input type="text" name="tittle-here"></td>
+                      </tr>
+                        <tr>
+                            <td>Sent to email</td>
+                            <td>:</td>
+                            <td><input type="text" name="tittle-here"></td>
+                        </tr>
+                </table>
+                <br>
+                <input type="submit" value="Generate nabr link" style="margin-left: 20px;">
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
